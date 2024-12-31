@@ -24,7 +24,6 @@ def E(t):
     t.forward(45)
     t.left(90)
     t.forward(30)
-    t.backward(30)
         
     
 def L(t):
@@ -34,12 +33,15 @@ def L(t):
     t.forward(30)
 
 def O(t):
-    for i in range(2):
-        t.forward(30)
-        t.right(90)
-        t.forward(90)
-        t.right(90)
-
+    t.right(90)
+    t.forward(90)
+    t.left(90)
+    t.forward(30)
+    t.left(90)
+    t.forward(90)
+    t.left(90)
+    t.forward(30)
+    
 def W(t):
     t.right(90)
     t.forward(90)
@@ -67,10 +69,21 @@ def D(t):
     t.right(95)
     t.forward(70)
     
-def space(t):
+def bottomSpace(t):
+    x = t.xcor()
+    y = t.ycor()
     t.penup()
-    t.setheading(90)
+    t.setheading(90) # faces up
     t.forward(90)
+    t.setheading(0) # faces right
+    t.forward(10)
+    t.pendown()
+
+def topSpace(t):
+    t.penup()
+    t.setheading(270) # faces down
+    t.forward(90)
+    t.setheading(180) # faces left
+    t.forward(10)
     t.setheading(0)
-    t.forward(40)
     t.pendown()
