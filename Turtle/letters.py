@@ -83,7 +83,13 @@ def topSpace(t):
     t.penup()
     t.setheading(270) # faces down
     t.forward(90)
-    t.setheading(180) # faces left
-    t.forward(10)
+    t.setheading(0) # faces right
+    t.forward(40)
     t.setheading(0)
+    t.pendown()
+
+def rightSpace(t):
+    t.penup()
+    t.setheading(0)
+    t.forward(10)
     t.pendown()
