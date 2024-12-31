@@ -4,23 +4,26 @@ from letters import *
 # s = Screen()
 t = Turtle()
 #x = 768
+#half = 384
 #y = 768
-
+"""
 H(t)
-space(t)
+bottomSpace(t)
 E(t)
-space(t)
+bottomSpace(t)
 L(t)
-space(t)
+bottomSpace(t)
 L(t)
-space(t)
+bottomSpace(t)
 O(t)
-space(t)
+"""
 
 W(t)
-"""
+rightSpace(t)
 O(t)
+topSpace(t)
 R(t)
+bottomSpace(t)
 L(t)
+rightSpace(t)
 D(t)
-"""
