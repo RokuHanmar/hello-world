@@ -7,3 +7,5 @@ than the JavaScript I'd been practicing and Python I was already proficient in. 
 in other languages (such as needing to write main functions)
 
 When I was then given a Hello World project during a React course, I decided it would be a good idea to add it here, for posterity. As this has now made this repository ~50% JavaScript, I have come to regret this. To compensate, I will next be using turtle.py
+
+I meant that last sentence as a joke. I really did. Unfortunately, I got bored, and there was no one around to stop me, so I wrote a 129 line hello world program using turtle, a Python library I hadn't used in at least 3 years. The repository is now 75% Python, and I don't know enough other libraries to make it worse
