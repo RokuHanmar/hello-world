@@ -11,3 +11,5 @@ When I was then given a Hello World project during a React course, I decided it 
 I meant that last sentence as a joke. I really did. Unfortunately, I got bored, and there was no one around to stop me, so I wrote a 129 line hello world program using turtle, a Python library I hadn't used in at least 3 years. The repository is now 75% Python, and I don't know enough other libraries to make it worse
 
 Scratch that, I'm doing it in Winsound
+
+This is why we don't let me onto GitHub without adult supervision. 80.3%
